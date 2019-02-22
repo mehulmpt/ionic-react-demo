@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@capacitor/cli": "1.0.0-beta.17",
+    "@capacitor/core": "1.0.0-beta.17",
+    "@capacitor/ios": "^1.0.0-beta.17",
+    "@ionic/react": "0.0.5",
     "@types/jest": "24.0.6",
     "@types/node": "11.9.4",
     "@types/react": "16.8.4",
     "@types/react-dom": "16.8.2",
+    "@types/react-router": "^4.4.4",
+    "@types/react-router-dom": "^4.3.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
     "typescript": "3.3.3333"
   },
@@ -16,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+	"eject": "react-scripts eject",
+	"ionic:build": "npm run build && ionic capacitor copy"
   },
   "eslintConfig": {
     "extends": "react-app"

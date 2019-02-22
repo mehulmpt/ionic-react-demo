@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "React Ionic Project",
+  "bundledWebRuntime": false,
+  "webDir": "build"
+}
